@@ -6,9 +6,9 @@ Description:
 
 Assignment Information:
     Assignment:     #.#.#
-    Author:         Name, login@purdue.edu
-    Section:        ###
-    Team:           ## 
+    Author:         Saharsh Medichalam, medichal@purdue.edu
+    Section:        115
+    Team:           28 
 
 """
 
