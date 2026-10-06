@@ -17,7 +17,7 @@ Assignment Information:
 
 def main():
     voltage = float(input("Enter voltage (V): "))
-    resistance = float5(input("Enter resistance (ohms): "))
+    resistance = float(input("Enter resistance (ohms): "))
 
     power = calc_power(voltage, resistance)
 
