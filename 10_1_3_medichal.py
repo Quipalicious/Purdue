@@ -5,7 +5,7 @@ Description:
     Replace this line with a description of your program.
 
 Assignment Information:
-    Assignment:     #.#.#
+    Assignment:     10.1.3
     Author:         Saharsh Medichalam, medichal@purdue.edu
     Section:        115
     Team:           28 
@@ -16,7 +16,13 @@ Assignment Information:
 
 
 def main():
-    """Write your code here (and delete this line)."""
+    char = input("Enter a character: ")
+    string = "" + char
+
+    for i in range(10):
+        print(string)
+        string += char
+            
 
 
 if __name__ == "__main__":
