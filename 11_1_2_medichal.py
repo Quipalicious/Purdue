@@ -32,7 +32,7 @@ def main():
 
     start = time.perf_counter()
     for i in rows:
-        density_loop.append(float(i["Mass_g"]) / float(i["Volume_cm3"]))
+        density_loop.append(round(float(i["Mass_g"]) / float(i["Volume_cm3"]), 1))
     end = time.perf_counter()
     loop_time = end - start
 
