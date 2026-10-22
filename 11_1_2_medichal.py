@@ -49,6 +49,7 @@ def main():
 
     start = time.perf_counter()
     density_np = mass_np / volume_np
+    density_np = np.round(density_np, decimals=1)
     end = time.perf_counter()
     numpy_time = end - start
 
